@@ -1,6 +1,6 @@
 ---
-title: goya
-subtitle: recursive aesthetics | self-consuming artifacts | feedback loops |
+title: autophage
+subtitle: recursive aesthetics | model collapse| self-consuming artifacts
 ---
 
 A research wiki on recursive media, reflexivity, and self-referentiality across media forms.
