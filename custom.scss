@@ -1,0 +1,58 @@
+@use "./base.scss";
+
+// ─── Body: UI stays sans, article gets serif ───────────────────────────────
+body {
+  font-family: var(--headerFont);
+}
+
+article {
+  font-family: var(--bodyFont), serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--headerFont);
+  }
+}
+
+// ─── Color tweaks: warm off-white tones ────────────────────────────────────
+.page {
+  background-color: var(--light);
+}
+
+// ─── Tag pills: slightly larger for readability ────────────────────────────
+.tags li a {
+  font-size: 0.8rem;
+  font-family: var(--codeFont);
+}
+
+// ─── Graph view: expand slightly ───────────────────────────────────────────
+#graph-container {
+  min-height: 280px;
+}
+
+// ─── Tables: tighter padding in source index tables ───────────────────────
+article table {
+  font-size: 0.9rem;
+  font-family: var(--headerFont);
+
+  th {
+    background-color: var(--lightgray);
+    color: var(--darkgray);
+  }
+
+  td,
+  th {
+    padding: 0.4rem 0.75rem;
+  }
+}
+
+// ─── Callouts ──────────────────────────────────────────────────────────────
+.callout {
+  border-radius: 4px;
+}

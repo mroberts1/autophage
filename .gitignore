@@ -23,8 +23,6 @@ public/
 # Node
 node_modules/
 
-# Build output
+# Build output (Cloudflare Workers — no longer used)
 dist/
-
-# Wrangler local dev state
 .wrangler/
