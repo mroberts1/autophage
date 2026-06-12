@@ -9,10 +9,8 @@ tags:
 created: 2026-06-12
 updated: 2026-06-12
 ---
-
-# Self-Consuming AI: Synthesis and Future Directions
-
-## The shape of the field
+![[Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg]]
+## Self-Consuming AI: Synthesis and Future Directions
 
 In the span of roughly two years, research on AI self-consuming loops has moved from a single provocative observation to a small but coherent discipline. The observation, arrived at almost simultaneously by several groups in 2023, was that generative models trained on their own output degrade. The discipline that has formed around it now spans rigorous theory, large-scale empirics, and a growing body of social-scientific work on what the same dynamics mean for human knowledge. This report synthesizes what the literature has settled and asks where it should go next.
 

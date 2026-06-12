@@ -22,3 +22,9 @@ public/
 
 # Node
 node_modules/
+
+# Build output
+dist/
+
+# Wrangler local dev state
+.wrangler/

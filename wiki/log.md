@@ -6,6 +6,10 @@ Format: `## [YYYY-MM-DD] action | Title`
 
 ---
 
+## [2026-06-12] lint | Health check
+
+56 pages. 15 broken wikilinks (all tag-style, no backing pages) — top priorities: `recursive-media`, `feedback-loops`, `distributional-drift`. 3 genuine orphans: two reports unlinked from index, `tomshardware` stub unlinked. 3 paywalled stubs still thin. Full report in `output/reports/Lint Report — 2026-06-12.md`.
+
 ## [2026-06-12] report | Self-Consuming AI: Synthesis and Future Directions
 
 Generated a ~1,000-word synthesis report in `output/reports/` covering established findings (generality, data-composition control, social register), the central pessimist/optimist tension, and five future research directions: (1) detection/auditing of closed models + autophagy-aware watermarking, (2) a theory of curation that separates signal from amplified bias, (3) a positive theory of when synthetic data helps, (4) the economics of accumulation and real data as a depleting resource, (5) cross-modal and longitudinal societal loops. Synthesizes the full corpus.

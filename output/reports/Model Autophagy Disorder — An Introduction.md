@@ -8,8 +8,9 @@ tags:
 created: 2026-06-12
 updated: 2026-06-12
 ---
+![[escher-hands.webp]]
 
-# Model Autophagy Disorder: An Introduction
+## Model Autophagy Disorder: An Introduction
 
 In the early 1980s, British cattle began to die of a disease that liquefied their brains. The cause, eventually, was traced to a feeding practice: cattle were being fed protein supplements rendered from the remains of other cattle. A herbivorous species had been turned, industrially, into a cannibal, and a misfolded protein called a prion was propagating through the loop, amplifying with each cycle until it reached humans. The epidemic became known as mad cow disease.
 

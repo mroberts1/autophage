@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+if [ ! -d node_modules ]; then
+  npm install
+fi
+
+# Initial build
+node build.mjs
+
+echo ""
+echo "Dev server: http://localhost:8787"
+echo "Watching wiki/ and output/ for changes..."
+echo ""
+
+# Watch markdown files and rebuild on change, in background
+npx nodemon \
+  --watch wiki \
+  --watch output \
+  --ext md \
+  --exec "node build.mjs" \
+  --quiet &
+
+NODEMON_PID=$!
+
+# Trap to kill nodemon on exit
+trap "kill $NODEMON_PID 2>/dev/null; exit" INT TERM EXIT
+
+# Serve with wrangler dev (watches dist/ automatically)
+npx wrangler dev
