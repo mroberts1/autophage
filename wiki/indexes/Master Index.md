@@ -11,7 +11,8 @@ Central directory for the recursive-media wiki.
 
 ## Topic Indexes
 
-_None yet._
+- [[Self-Consuming AI]] — model collapse, self-consuming loops, knowledge collapse (42 sources)
+  - [[Model Collapse — Quickstart]] — start here
 
 ## All Concepts
 
