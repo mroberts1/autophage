@@ -2,7 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 // Shared components across all pages
-export const sharedLayout: SharedLayout = {
+export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
